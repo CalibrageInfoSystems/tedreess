@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectUser">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:background="?actionBarItemBackground"
+            android:id="@+id/img_arrow"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your Type"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tv_signup" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relSecond"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/relFirst"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/companylogo"/>
+
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+          android:layout_below="@+id/relSecond"
+            android:layout_marginTop="80dp"
+            android:layout_height="wrap_content">
+
+
+
+
+        <TextView
+            android:id="@+id/txtTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Teacher"
+           android:textColor="#ffffff"
+            android:background="@drawable/ripple_background"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="18dp"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/txtStudent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtTeacher"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="Student"
+            android:textColor="#ffffff"
+            android:background="@drawable/ripple_background"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_centerHorizontal="true"/>
+       <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_corporate"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tv_contracter"
+          />-->
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

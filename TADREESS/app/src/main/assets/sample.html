@@ -1,0 +1,60 @@
+<form id="signin" name="signin" method="post"
+      action="https://www.e-lectazone.com/tools/douseraccount.asp" class="form-wrapper">
+    <div class="content-wrapper container text-center">
+        <h1 class="text-primary strong">Welcome to Tadreess Online Classroom</h1>
+        <input type="hidden" name="cid" id="cid" runat="server" value=""/>
+        <input type="hidden" name="roomid" runat="server" id="roomid" value=""/>
+        <input type="hidden" name="usertypeid" id="usertypeid" value=""/>
+        <input type="hidden" name="gender" id="gender" value=""/>
+        <input type="hidden" name="firstname" id="firstname" runat="server" value=""/>
+        <input type="hidden" name="lastname" id="lastname" runat="server" value=""/>
+        <input type="hidden" name="email" id="email" value=""/>
+        <input type="hidden" name="externalname" id="externalname" runat="server" value=""/>
+        <div class="pull-top25">
+            <input type="submit" value="Enter the Class"
+                   class="btn btn-lg btn-primary push-right10">
+        </div>
+    </div>
+
+</form>
+<script type="text/javascript">
+var url = window.location.href;
+var queryString = new Array();
+    window.onload = function () {
+        if (queryString.length == 0) {
+            if (url.split('?').length > 1) {
+                var params = window.location.search.split('?')[1].split('&');
+                for (var i = 0; i < params.length; i++) {
+                    var key = params[i].split('=')[0];
+                    var value = decodeURIComponent(params[i].split('=')[1]);
+                    queryString[key] = value;
+                }
+            }
+        }
+		var Cid =  queryString["cid"]
+		document.getElementById("cid").value = Cid;
+
+		var Roomid =  queryString["roomid"]
+		document.getElementById("roomid").value = Roomid;
+
+		var UsertypeId =  queryString["usertypeid"]
+		document.getElementById("usertypeid").value = UsertypeId;
+
+		var Gender =  queryString["gender"]
+		document.getElementById("gender").value = Gender;
+
+		var Firstname =  queryString["firstname"]
+		document.getElementById("firstname").value = Firstname;
+
+		var Lastname =  queryString["lastname"]
+		document.getElementById("lastname").value = Lastname;
+
+		var Email =  queryString["email"]
+		document.getElementById("email").value = Email;
+
+		var Externalname =  queryString["externalname"]
+		document.getElementById("externalname").value = Externalname;
+
+ };
+
+</script>

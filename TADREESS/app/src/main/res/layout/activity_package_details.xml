@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.PackageDetailsActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/relFirst"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary">
+
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:padding="18dp"
+                android:src="@drawable/backicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imgBack"
+                android:paddingLeft="20dp"
+                android:text="Our Packages"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relFirst"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+
+            <TextView
+                android:id="@+id/txtStage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="S5-Maths-Part 17"
+                android:textColor="#4CAF50"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtStage"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Stage:"
+                        android:textColor="#65000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/txtStagee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="five"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Subject:"
+                        android:textColor="#65000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/txtSubject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Maths"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Total Minutes:"
+                        android:textColor="#65000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/txtTotalMinutes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="60min"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Availevel Schedules for the packages"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#4CAF50" />
+
+
+                    <TextView
+                        android:id="@+id/txtName"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:text="Name"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#4CAF50" />
+
+
+                    <TextView
+                        android:id="@+id/txtMonth"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:text="March to April"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#4CAF50" />
+
+
+                    <TextView
+                        android:id="@+id/txtMinutes"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:text="60"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#4CAF50" />
+
+
+                    <TextView
+                        android:id="@+id/txtVaccencies"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:text="Vaccencies"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/txtWeekDays"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="WeekDays"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/txtWeekDay"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Saturday"
+                        android:textColor="#65000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/txtTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="00:00"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/txtWeekDay2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tuesday"
+                        android:textColor="#65000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/txtTime2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="00:00"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tution Fees:"
+                        android:textColor="#4CAF50"
+                        android:textSize="14dp"
+                        android:textStyle="bold"/>
+
+
+                    <TextView
+                        android:id="@+id/txtTutionFees"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3.0000KWD"
+                        android:textColor="#ffffff"
+                        android:paddingLeft="5dp"
+                        android:padding="5dp"
+                        android:background="@color/colorPrimary"
+                        android:textSize="14dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/btnBookPackage"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Book Now"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#4CAF50"/>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/Pbar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

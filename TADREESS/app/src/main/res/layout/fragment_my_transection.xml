@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.Fragment.MyTransectionFragment">
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relFirst"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+
+        <TextView
+            android:id="@+id/txtMyBalance"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="My Bal:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:paddingTop="13dp"/>
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRecharge"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/relFirst">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnRecharge"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Recharge"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimary"/>
+
+
+    <ProgressBar
+        android:id="@+id/pBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

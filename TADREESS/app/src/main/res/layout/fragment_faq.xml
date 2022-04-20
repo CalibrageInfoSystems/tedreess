@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.Fragment.FaqFragment">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeMain"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Why should i Register to Tadreess.com?"
+          android:textColor="#4CAF50"
+          android:textSize="13dp"/>
+
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="You should Register because you be able to book lectures and join classes online on our website."
+            android:textColor="#54000000"
+            android:textSize="12dp"/>
+
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why i am not able to receive the accoount activation email?"
+                android:textColor="#4CAF50"
+                android:textSize="13dp"/>
+
+
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please check your JUNK mails and if you find mail from info@tedreess.com,so mark it as NOT JUNK.YOu will findthe activation link in the mail content."
+                android:textColor="#54000000"
+                android:layout_marginLeft="15dp"
+                android:textSize="12dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

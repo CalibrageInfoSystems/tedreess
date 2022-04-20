@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/profile_80"
+            android:title="My Profile" />
+
+
+        <item
+            android:id="@+id/nav_schedules"
+            android:icon="@drawable/schedule"
+            android:title="My Schedules" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/account"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_password"
+            android:icon="@drawable/change_password"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/faq"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/services"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

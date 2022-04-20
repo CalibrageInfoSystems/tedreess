@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoginActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/companylogo" >
+        </ImageView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/Progress"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            android:visibility="gone"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            app:lottie_fileName="check.json"
+            app:lottie_loop="true" />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="25dp"
+            android:layout_below="@+id/Progress"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentBottom="true"
+
+            >
+
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Email"
+                android:textSize="13dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/et"/>
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:password="true"
+                android:textSize="13dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/et"
+                android:drawableRight="@drawable/ic_eye"
+                android:drawablePadding="20dp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/txtLogin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="LOGIN"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ripple_background"/>
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="REGISTER NOW"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/ripple_background"/>
+
+
+            <TextView
+                android:id="@+id/forgotpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot password"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="#4caf50"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+   <!-- <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/Progress"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        android:visibility="visible"
+        app:lottie_fileName="check.json"
+        app:lottie_loop="true" />-->
+    </ScrollView>
+
+</RelativeLayout>

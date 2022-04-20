@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.Fragment.ServicesFragment">
+
+   <RelativeLayout
+       android:id="@+id/ralativeMain"
+       android:layout_width="match_parent"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+
+
+
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+        android:src="@drawable/companylogo"/>
+
+
+
+
+
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="We present a new modern way of teaching bt using the new technologies of internet application and e learning
+to enable our students to lern from their home.So student can sit aat home and use our
+application  to watch his teacher and interactwith him in easy and simple process."/>
+
+
+
+
+
+
+
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Online Tuition"
+               android:layout_marginTop="40dp"
+               android:textColor="#4CAF50"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Online Exams"
+               android:layout_marginTop="15dp"
+               android:textColor="#4CAF50"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Online Study Materials"
+               android:layout_marginTop="15dp"
+               android:textColor="#4CAF50"/>
+
+       </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+   </RelativeLayout>
+
+</RelativeLayout>

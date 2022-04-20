@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.Fragment.ContactUsFragment">
+
+   <RelativeLayout
+       android:id="@+id/relative"
+       android:layout_width="match_parent"
+       android:layout_marginTop="15dp"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:layout_height="wrap_content">
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+
+
+           <TextView
+               android:id="@+id/txtOverview"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Write to Us"
+               android:textSize="15dp"
+               android:textColor="#4CAF50"/>
+
+
+           <EditText
+               android:id="@+id/edtName"
+               android:layout_marginTop="15dp"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:background="@drawable/edit_back"
+               android:hint="Name"
+               android:textSize="12dp"
+               android:paddingLeft="15dp"/>
+
+
+           <EditText
+               android:id="@+id/edtEmail"
+               android:layout_marginTop="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:background="@drawable/edit_back"
+               android:hint="Email"
+               android:textSize="12dp"
+               android:paddingLeft="15dp"/>
+           <EditText
+               android:id="@+id/edtPhone"
+               android:layout_marginTop="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:background="@drawable/edit_back"
+               android:hint="Phone"
+               android:textSize="12dp"
+               android:paddingLeft="15dp"/>
+
+           <EditText
+               android:id="@+id/edtMesage"
+               android:layout_marginTop="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="150dp"
+               android:background="@drawable/edit_back"
+               android:hint="Message"
+               android:textSize="12dp"
+               android:paddingLeft="15dp"/>
+
+           <Button
+               android:id="@+id/btnSubmit"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:background="#4CAF50"
+               android:text="SUBMIT"
+               android:layout_marginTop="5dp"
+               android:textColor="#ffffff"
+               android:textSize="13dp"
+               />
+
+           <Button
+               android:id="@+id/btnReset"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:background="#344CAF50"
+               android:text="RESET"
+               android:layout_marginTop="10dp"
+               android:textColor="#ffffff"
+               android:textSize="13dp"
+               />
+
+       </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </RelativeLayout>
+</RelativeLayout>

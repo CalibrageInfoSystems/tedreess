@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.Fragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+               android:layout_centerHorizontal="true"
+                android:background="@drawable/student_profile" />
+
+
+            <RelativeLayout
+                android:id="@+id/relThired"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imgProfile">
+
+                <TextView
+                    android:id="@+id/txtStudentName"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStage"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/txtStudentName"
+                    android:background="#4CAF50"
+                    android:text="Stage"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/txtStudentName"
+                    android:layout_toRightOf="@+id/btnStage"
+                    android:background="@color/colorPrimary"
+                    android:text="Eight"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/relThired"
+                android:layout_marginTop="10dp"
+                android:background="#59000000" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relSecond">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

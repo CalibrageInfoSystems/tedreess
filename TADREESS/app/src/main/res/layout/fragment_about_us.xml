@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.Fragment.AboutUs">
+
+
+
+
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txtOverview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses Overview"
+            android:textSize="15dp"
+            android:textColor="#4CAF50"/>
+
+
+        <LinearLayout
+            android:id="@+id/linearFirst"
+            android:layout_below="@+id/txtOverview"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_weight="1"
+         android:layout_height="wrap_content">
+
+         <de.hdodenhof.circleimageview.CircleImageView
+             android:id="@+id/imgCircle"
+             android:layout_width="80dp"
+             android:layout_height="80dp"
+             android:layout_marginTop="5dp"
+             android:src="@drawable/cir"
+             android:layout_centerHorizontal="true"/>
+
+         <TextView
+             android:layout_below="@+id/imgCircle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:textSize="14dp"
+             android:textColor="#4CAF50"
+             android:layout_centerHorizontal="true"
+             android:text="Tutor"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="25dp"
+             android:textSize="28dp"
+             android:textColor="#3F51B5"
+             android:layout_centerHorizontal="true"
+             android:text="lll"/>
+
+
+     </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgCircle1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/cir"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_below="@+id/imgCircle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="14dp"
+                    android:textColor="#4CAF50"
+                    android:layout_centerHorizontal="true"
+                    android:text="Tutor"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textSize="28dp"
+                    android:textColor="#3F51B5"
+                    android:layout_centerHorizontal="true"
+                    android:text="123"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/linearFirst"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="#6A000000"/>
+
+
+
+
+        <RelativeLayout
+            android:layout_below="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/txtWhatWeDo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What We Do?"
+                android:textSize="15dp"
+                android:textColor="#4CAF50"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="We are a group of experts was based  on a study od the teaching process.This study aims to facilitate the creation of a new ideas to receive attainment.It took the study and the development of this ides three years until we came to these results provide the best means of modern technology.Hence came the idea of Tadreess online site where a new way to develop innovative ways of teaching to put it in your hands.To support the students and assist them in streamlining and improving the way the receive their scientific comprehension."
+                android:layout_below="@+id/txtWhatWeDo"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

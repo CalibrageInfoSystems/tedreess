@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Student.WebActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relFirst"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:src="@drawable/backicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgBack"
+            android:paddingLeft="20dp"
+            android:text="Enter Class"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webview"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    >
+
+</LinearLayout>

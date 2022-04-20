@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.PaymentConfirmationActivity">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </WebView>
+
+
+<RelativeLayout
+    android:id="@+id/relfIRST"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="50dp">
+
+
+
+   <ImageView
+       android:id="@+id/imgBack"
+       android:layout_width="70dp"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:src="@drawable/backicon"/>
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/imgBack"
+      android:text="Payment Confirmation"
+      android:textColor="#ffffff"
+      android:layout_centerVertical="true"
+      android:textSize="15dp"/>
+
+
+
+
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+<LinearLayout
+  android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="wrap_content">
+
+
+
+    <EditText
+        android:id="@+id/edtAmount"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Amount"
+        android:textSize="12dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/edit_back"/>
+
+
+    <Button
+        android:id="@+id/btnPurchase"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Purchase"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="15dp"
+        android:background="@drawable/ripple_background"/>
+
+
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Cancel"
+        android:textSize="12dp"
+        android:paddingLeft="15dp"
+        android:background="#14000000"/>
+
+
+
+
+</LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/Progress"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
